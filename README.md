@@ -27,4 +27,3 @@
 ### Etapas para acessar o BigQuery e realizar o envio dos DataFrames: 
 
 * Baixar o Json da service account e ativar a API do BigQuery
-* 
