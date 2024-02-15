@@ -17,5 +17,5 @@
 
 ### Entregáveis:
 
-- Criar uma tabela final, sendo a junção das outras duas tabelas que deve conter a soma do valor total de receita, e despesa do Estado de São Paulo, agrupando pela fonte de recursos e tipo de despesa.
+- Criar uma tabela final, sendo a junção das outras duas tabelas que deve conter a soma do valor total de receita, e o total da despesa do Estado de São Paulo, agrupado pela fonte de recursos e tipo de despesa.
 - Responder quais são as 10 maiores fontes de recursos e os 10 maiores tipos de despesa.
