@@ -31,10 +31,10 @@
 ### Imagens de exemplo:
 
 ### Acessando Contas de serviço:
-![model](D:\projetos_python\esfera_gcp\imagens\conta_servico.png)
+![model](imagens/conta_servico.png)
 
 ### Criando chave json e realizando o download:
-![model](D:\projetos_python\esfera_gcp\imagens\chave_json.png)
+![model](imagens/chave_json.png)
 
 ### Segunda etapa, scripts para tratar os dados nos arquivos csv e realizar o envio para ao BigQuery: 
 - [Script Python](scripts/teste_esfera.ipynb)
@@ -46,18 +46,20 @@
 ### Esquema das tabelas: 
 
 #### Tabela receita:
-![model](D:\projetos_python\esfera_gcp\imagens\receita.png)
+![model](imagens/receita.png)
 
 #### Tabela despesa:
-![model](D:\projetos_python\esfera_gcp\imagens\despesa.png)
+![model](imagens/despesa.png)
 
 ### Query que junta as duas tabelas e cria uma view: 
-![model](D:\projetos_python\esfera_gcp\imagens\Union.png)
+![model](imagens/Union.png)
 
 ### Respondendo as duas questões 
 
 ## Quais são os 10 maiores recursos? 
-![model](D:\projetos_python\esfera_gcp\imagens\10_maiores_recursos.png)
+![model](imagens/10_maiores_recursos.png)
 
 ## Quais são as 10 maiores despesas? 
-![model](D:\projetos_python\esfera_gcp\imagens\10_maiores_despesas.png)
+![model](imagens/10_maiores_despesas.png)
+
+### Teste finalizado.
