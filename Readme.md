@@ -24,6 +24,40 @@
 - Criar uma tabela final, sendo a junção das outras duas tabelas que deve conter a soma do valor total de receita, e o total da despesa do Estado de São Paulo, agrupado pela fonte de recursos e tipo de despesa.
 - Responder quais são as 10 maiores fontes de recursos e os 10 maiores tipos de despesa.
 
-### Etapas para acessar o BigQuery e realizar o envio dos DataFrames: 
+## Criando o arquivo de conexão json no BigQuery:
 
-* Baixar o Json da service account e ativar a API do BigQuery
+### No menu de navegação -> IAM e administrador -> Contas de serviço -> Criar uma nova conta de serviço -> Clicar nos 3 pontos a direita, assim que a conta for criada -> Gerenciar Chaves -> Adicionar CHAVE -> Criar uma nova chave.
+
+### Imagens de exemplo:
+
+### Acessando Contas de serviço:
+![model](D:\projetos_python\esfera_gcp\imagens\conta_servico.png)
+
+### Criando chave json e realizando o download:
+![model](D:\projetos_python\esfera_gcp\imagens\chave_json.png)
+
+### Segunda etapa, scripts para tratar os dados nos arquivos csv e realizar o envio para ao BigQuery: 
+- [Script Python](scripts/teste_esfera.ipynb)
+
+#### Obs: o script possui comentários para o melhor entendimento do código.
+
+## Unificando os dados no BigQuery: 
+
+### Esquema das tabelas: 
+
+#### Tabela receita:
+![model](D:\projetos_python\esfera_gcp\imagens\receita.png)
+
+#### Tabela despesa:
+![model](D:\projetos_python\esfera_gcp\imagens\despesa.png)
+
+### Query que junta as duas tabelas e cria uma view: 
+![model](D:\projetos_python\esfera_gcp\imagens\Union.png)
+
+### Respondendo as duas questões 
+
+## Quais são os 10 maiores recursos? 
+![model](D:\projetos_python\esfera_gcp\imagens\10_maiores_recursos.png)
+
+## Quais são as 10 maiores despesas? 
+![model](D:\projetos_python\esfera_gcp\imagens\10_maiores_despesas.png)
