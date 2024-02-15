@@ -3,9 +3,8 @@
 ### O teste consiste em desenvolver um processo de ETL para processar arquivos CSV e armazenar os dados em um banco de dados.
 
 ### Arquivos para o teste:
-- [gdvReceitasExcel.csv](docs/C:\Users\Iago_\Downloads\gdvReceitasExcel.csv)
-- [gdvDespesasExcel.csv](docs/C:\Users\Iago_\Downloads\gdvDespesasExcel.csv)
-
+- [gdvReceitasExcel.csv](docs/gdvReceitasExcel.csv)
+- [gdvDespesasExcel.csv](docs/gdvReceitasExcel.csv)
 
 ### Requisitos:
 
