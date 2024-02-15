@@ -2,6 +2,10 @@
 
 ### O teste consiste em desenvolver um processo de ETL para processar arquivos CSV e armazenar os dados em um banco de dados.
 
+### Arquivos para o teste:
+- [gdvReceitasExcel.csv](docs/C:\Users\Iago_\Downloads\gdvReceitasExcel.csv)
+- [gdvDespesasExcel.csv](docs/C:\Users\Iago_\Downloads\gdvDespesasExcel.csv)
+
 ### Requisitos:
 
 - Adequar os tipos de dados para os mais apropriados.
@@ -13,7 +17,7 @@
 - Para leitura e tratamento dos arquivos: Python
 - Banco de dados para armazenar: BigQuery
 - Para analise dos dados: SQL
-- Hospedar o código: GitHub
+- Hospedagem do código: GitHub
 
 ### Entregáveis:
 
