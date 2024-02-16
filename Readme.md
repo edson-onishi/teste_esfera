@@ -50,9 +50,10 @@
 #### Tabela despesa:
 ![model](imagens/despesa.png)
 
-### Query que junta as duas tabelas e faz criação de uma view: 
+### Query que unifica as duas tabelas e faz criação de uma view: 
 
 [Query para unificar as tabelas](scripts_sql/juncao_tabelas.sql)
+
 ![model](imagens/Union.png)
 
 ### Respondendo as duas questões 
@@ -60,11 +61,13 @@
 ## Quais são os 10 maiores recursos? 
 
 [Query - 10 Maiores recursos](scripts_sql/10_maiores_recursos.sql)
+
 ![model](imagens/10_maiores_recursos.png)
 
 ## Quais são as 10 maiores despesas?
 
 [Query - 10 Maiores despesas](scripts_sql/10_maiores_despesas.sql)
+
 ![model](imagens/10_maiores_despesas.png)
 
 ### Teste finalizado.
