@@ -36,12 +36,11 @@
 ### Criando chave json e realizando o download:
 ![model](imagens/chave_json.png)
 
-### Segunda etapa, scripts para tratar os dados nos arquivos csv e realizar o envio para ao BigQuery: 
+## Segunda etapa, script para tratar os dados nos arquivos csv e realizar o envio ao BigQuery:
+
 - [Script Python](scripts/teste_esfera.ipynb)
 
-#### Obs: o script possui comentários para o melhor entendimento do código.
-
-## Unificando os dados no BigQuery: 
+### Obs: o script possui comentários para o melhor entendimento do código.
 
 ### Esquema das tabelas: 
 
@@ -51,15 +50,21 @@
 #### Tabela despesa:
 ![model](imagens/despesa.png)
 
-### Query que junta as duas tabelas e cria uma view: 
+### Query que junta as duas tabelas e faz criação de uma view: 
+
+[Query para unificar as tabelas](scripts_sql/juncao_tabelas.sql)
 ![model](imagens/Union.png)
 
 ### Respondendo as duas questões 
 
 ## Quais são os 10 maiores recursos? 
+
+[Query - 10 Maiores recursos](scripts_sql/10_maiores_recursos.sql)
 ![model](imagens/10_maiores_recursos.png)
 
-## Quais são as 10 maiores despesas? 
+## Quais são as 10 maiores despesas?
+
+[Query - 10 Maiores despesas](scripts_sql/10_maiores_despesas.sql)
 ![model](imagens/10_maiores_despesas.png)
 
 ### Teste finalizado.
